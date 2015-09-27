@@ -1,7 +1,7 @@
 Code Book
 
 *General information about data:*
-The data set in a file clear_data.csv has 68 variables and 180 observations. First two variables «activity_type» and «subject_id» identify the type of activity and ID of a participant, while the others are mean values of various values obtained from a Samsung Galaxy S 2 accelerometer and gyroscope and processed in several ways. 
+The data set in a file clear_data.txt has 68 variables and 180 observations. First two variables «activity_type» and «subject_id» identify the type of activity and ID of a participant, while the others are mean values of various values obtained from a Samsung Galaxy S 2 accelerometer and gyroscope and processed in several ways. 
 
 *Transformations of data and general algorithme:*
 The script consists of five basic parts:
@@ -14,7 +14,7 @@ The script consists of five basic parts:
 
 *Step 4: combining all the data together — adds «activity_type» and «subject_id» columns to the draft of a data set
 
-*Step 5: creating the final data frame:  naming and writing it into a file —  calculates the means of all values, than names the activities, adds «tidy» names of columns and finally outputs the data to a file named clear_data.csv.
+*Step 5: creating the final data frame:  naming and writing it into a file —  calculates the means of all values, than names the activities, adds «tidy» names of columns and finally outputs the data to a file named clear_data.txt.
 
 For more information about the algorithme see the comments in run_analysis.R
 For technical details and explanations of some moments see README.md
