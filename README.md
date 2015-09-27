@@ -1,10 +1,8 @@
----
-title: "README"
-output: html_document
----
 
 *Technical details:*
+
 1. The script supposes that the working directory (set via setwd()) is  …/UCI HAR Dataset with the folder structure as in provided archive.
+
 2. The script was successfully run and written on Linux Ubuntu 14.04 LTS, 4GB DDR3 L memory. R version 3.2.2 (2015-08-14) -- "Fire Safety".
 
 *Answers to possible questions:*
