@@ -26,7 +26,7 @@
 
 -A: I hate when the enviroment is full of litter and, by the way, it eats memory.
 
-And the information about the script to match the requirement:
+*And the information about the script to match the requirement:*
 The script consists of five basic parts:
 
 *Step 1: cleaning the X_test file — this part takes the mean and standart deviation columns out of the X_test for further processing
