@@ -118,4 +118,4 @@ colnames(clear_data) <- column_names
 # Cleaning the enviroment
 remove(final_frame,column_names)
 # Writing the output to a text file
-write.table(clear_data, file = "clear_data.txt")
+write.table(clear_data, file = "clear_data.txt", row.names = FALSE)
