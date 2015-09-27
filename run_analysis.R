@@ -117,5 +117,5 @@ column_names <- c("activity_type", "subject_id", "t_body_accelerometer_std_x", "
 colnames(clear_data) <- column_names
 # Cleaning the enviroment
 remove(final_frame,column_names)
-# Writing the output to a file
-write.csv(clear_data, file = "clear_data.csv")
+# Writing the output to a text file
+write.table(clear_data, file = "clear_data.txt")
